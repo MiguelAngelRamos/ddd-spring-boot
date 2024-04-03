@@ -1,5 +1,6 @@
 package com.kibernumacademy.crud.application.service;
 
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.kibernumacademy.crud.application.dto.ProductDTO;
@@ -10,7 +11,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import javax.persistence.EntityNotFoundException;
 
 @Service
 public class ProductApplicationService {
